@@ -1,0 +1,44 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../node_modules/bootstrap/scss/functions";
+
+
+
+
+
+// 2. Include any default variable overrides here
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/maps";
+@import "./helper/variables.scss";
+@import "./helper/utilities.scss";
+@import "../stylesheets/components/header";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap stylesheets
+
+
+// 4. Include any optional Bootstrap components as you like
